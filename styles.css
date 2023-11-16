@@ -1,0 +1,271 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeseva One', display;
+}
+
+/* Estilos para la sección de Bienvenida */
+#bienvenida {
+    background-color: #663399; /* Morado oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 150px 0;
+    text-align: center;
+}
+
+#bienvenida img {
+    border-radius: 50%; /* Borde redondeado para el logo */
+}
+
+.buttons-container {
+    margin-top: 30px;
+}
+
+.buttons-container a {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.buttons-container a:hover {
+    background-color: #fff; /* Fondo blanco al pasar el mouse */
+    color: #663399; /* Texto morado al pasar el mouse */
+}
+
+/* Tipografía personalizada */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center; /* Centra el texto en el cuerpo de la página */
+    color: #000000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    background-color: #6f42c1;
+    border-bottom: 1px solid #a70000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Estilos para la barra de navegación en la página de servicios */
+#servicios-nav {
+    background-color: #6f42c1;
+    border-bottom: 1px solid #a70000;
+    color: #000000;
+}
+
+#servicios-nav .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+#servicios-nav .navbar-nav .nav-link {
+    color: #000000;
+}
+
+#servicios-nav .navbar-nav .nav-link:hover {
+    color: #3f2a68;
+}
+
+#servicios-nav .navbar-toggler {
+    border: 1px solid #fff;
+}
+
+#servicios-nav .navbar-toggler:focus,
+#servicios-nav .navbar-toggler:hover {
+    background-color: #3f2a68;
+}
+
+/* Estilos para la sección de testimonios */
+#testimonios {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+    
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+
+
+/* Estilos para la sección de galería */
+#galeria {
+    background-color: #6f42c1;
+    color: #fff;
+    padding: 80px 0;
+}
+
+/* Estilos para el formulario de contacto */
+#contacto {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.form-group label {
+    color: #6f42c1;
+}
+
+.form-control {
+    border: 1px solid #6f42c1;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #6f42c1;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #6f42c1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3f2a68;
+}
+
+/* Estilos para los recuadros de información */
+.info-box {
+    border: 2px solid #663399; /* Borde morado */
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.box-title {
+    font-weight: bold;
+    color: #663399; /* Morado oscuro para el título del recuadro */
+}
+
+.box-content {
+    color: #333; /* Texto oscuro en el recuadro */
+}
+
+#faq {
+    background-color: #f5f5f5; /* Fondo en gris claro */
+    padding: 80px 0;
+}
+
+#faq h2 {
+    color: #663399; /* Morado oscuro para el título */
+    color: #663399; /* Morado oscuro para el título */
+    text-align: center; /* Centra el título en la sección */
+}
+
+.faq-item {
+    margin-bottom: 30px;
+}
+
+.faq-item h4 {
+    color: #333; /* Texto oscuro para el título de la pregunta */
+    text-align: center; /* Centra el título de la pregunta */
+}
+
+/* Ajuste del tamaño de las imágenes del carrusel */
+.carousel-item img {
+    max-width: 30%;
+    height: auto;
+}
+
+/* Barra de navegación */
+#servicios-nav {
+    background-color: #6f42c1;
+}
+
+
+/* Sección de Información de Mesa Cuántica Lovers */
+#servicios-info {
+    background-color: #663399;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+#servicios-info h2 {
+    color: #ffffff;
+}
+
+/* Sección de Servicios */
+#servicios {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+#servicios h2 {
+    color: #6f42c1;
+    margin-bottom: 40px;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #6f42c1;
+}
+
+.card-text {
+    color: #000000;
+}
+
+/* Sección de Compra de Terapias */
+#mesa-cuantica-lovers-info h2 {
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(255, 240, 188);
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Enlaces */
+a {
+    color: #6f42c1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3f2a68;
+}
+
+/* Botones */
+.btn-purple {
+    background-color: #6f42c1;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-purple:hover {
+    background-color: #3f2a68;
+}
