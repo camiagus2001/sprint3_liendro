@@ -23,7 +23,7 @@ No se requiere instalación para acceder a nuestros servicios. Puedes explorarlo
 
 ## Cómo Usar
 
-1. Visita [Chispa Cuántica](https://www.chispacuantica.com) para obtener más información.
+1. Visita [Chispa Cuántica](https://camiagus2001.github.io/sprint3_liendro/) para obtener más información.
 2. Explora nuestros servicios y elige el que mejor se adapte a tus necesidades.
 3. ¡Experimenta la transformación hacia un mayor bienestar!
 
@@ -45,4 +45,4 @@ Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE
 
 ¡Esperamos que encuentres paz y bienestar con Chispa Cuántica!
 
-[Visita nuestro sitio web](https://www.chispacuantica.com)
+[Visita nuestro sitio web](https://camiagus2001.github.io/sprint3_liendro/)
